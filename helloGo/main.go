@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 
 	// BufferedChannels
@@ -23,4 +25,11 @@ func main() {
 	// for i := 0; i < len(response); i++ {
 	// 	fmt.Println(response[i])
 	// }
+
+	// generics.go
+
+	test := []string{"Vibhor"}
+
+	ok := getLast(test)
+	fmt.Println(ok)
 }
